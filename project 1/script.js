@@ -15,7 +15,7 @@ const NumbersOfFilms = +prompt('Сколько фильмов вы уже пос
  PersonalMovieDB.movies[d] = e;
  console.log(PersonalMovieDB);
  */
-/*  Логические операторы    */ 
+/*  Логические операторы    
 const hamburger = true;
 const fries = false;
 if(hamburger || fries) {
@@ -23,3 +23,16 @@ if(hamburger || fries) {
 } else {
     console.log("ты не сыт")
 }
+*/ 
+/*nested loops // вложенные циклы//циклы в цикле*/
+/*Задача с построением пирамиды*/
+let result = '';
+const length = 7;
+for ( let i=1;i<length;i++) {
+    for( let j=0;j<i;j++){
+        result += "*";
+    }
+    result += '\n';
+
+}
+console.log(result);
